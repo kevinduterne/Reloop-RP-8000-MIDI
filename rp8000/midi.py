@@ -49,7 +49,7 @@ class SysEx:
 			, 0x00  # Serato manufacturer ID
 			, 0x20  # Serato manufacturer ID
 			, 0x7F  # Serato manufacturer ID
-			, 0x11  # Signal BPM Change
+			, channel  # Signal BPM Channel
 			, 0x00  # Signal BPM Change
 			, 0x00  # Also a tempo value byte
 			, b1    # byte 1
