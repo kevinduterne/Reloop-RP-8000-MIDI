@@ -43,7 +43,7 @@ class SysEx:
 		b2 = (v >> 8) & 15
 		b3 = (v >> 4) & 15
 		b4 = (v & 15)
-		channel = 10 + channel
+		channel = 16 + channel
 		message = [
 			0xF0    # start of SysEx
 			, 0x00  # Serato manufacturer ID
